@@ -1,0 +1,28 @@
+.foter__box{
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px black;
+}
+
+.foter__title{
+    padding-top: 34px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    color: #0e2149;
+}
+
+.foter__text{
+    padding-top: 5px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
+.foter__bottom{
+    padding-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}

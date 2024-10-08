@@ -1,0 +1,35 @@
+.search{
+    padding: 5px;
+    background-color: #0e2149;
+}
+
+.search__block{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.search__list{
+    display: flex;
+    gap: 35px;
+}
+
+.search__items{
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.search__box{
+    display: flex;
+    gap: 3px;
+    background-color: #253b6a;
+    width: 180px;
+}
+
+.search__input{
+    background-color:#253b6a;
+    border: none;
+    outline: none;
+}

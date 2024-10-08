@@ -1,0 +1,45 @@
+.about{
+    background-image: url("../../img/bgimg.png");
+    background-repeat: no-repeat;
+}
+
+.about__title{
+    padding-top: 113px;
+    padding-bottom: 143px;
+}
+
+.about__name{
+    font-weight: 700;
+    font-size: 52px;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.about__text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    width: 368px;
+    color: white;
+    margin-bottom: 17px;
+}
+
+.about__btn{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: white;
+    padding: 8px 44px 9px 48px;
+    background-color: #0e2149;
+    border: none;
+    transition: .45s;
+    &:hover{
+        cursor: pointer;
+    }
+    &:active{
+        transform: scale(.95);
+        background-color: rgb(26, 55, 84);
+    }
+}
